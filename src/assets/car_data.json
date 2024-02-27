@@ -1,0 +1,18 @@
+{
+    "model": "BMW 220i",
+    "bodyStyle": "Coupe",
+    "price": {
+      "perMonth": "R 12 457",
+      "offerPrice": "R 857 190"
+    },
+    "otherSpecifications": {
+      "condition": "New",
+      "fuelType": "Petrol",
+      "transmission": "Automatic",
+      "deliveryTime": "Delivery within 1 week",
+      "acceleration": "0-100 km/h in 7.5 seconds",
+      "enginePerformance": "135kW",
+      "fuelConsumption": "6.31/100km"
+    }
+  }
+  

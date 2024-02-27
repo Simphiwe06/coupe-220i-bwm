@@ -1,0 +1,30 @@
+.container {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .car-details {
+    margin-top: 20px;
+  }
+  
+  .heart-icon {
+    float: right;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  
+  .additional-details {
+    margin-top: 20px;
+  }
+  
+  .icons img {
+    margin-right: 10px;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
