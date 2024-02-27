@@ -13,11 +13,12 @@
   .car-details {
     width: 50%; 
     order: 2; 
+    
   }
   
   .car-image img {
-    width: 100%; 
-    max-width: 100%; 
+    width: 50%; 
+    max-width: 50%; 
   }
   
   .heart-icon {
@@ -40,4 +41,6 @@
     margin-top: 20px;
     justify-content: center;
   }
+  
+  
   
