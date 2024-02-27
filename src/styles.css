@@ -1,36 +1,75 @@
 .container {
     background-color: #f0f0f0;
     padding: 20px;
-    display: flex; 
-    justify-content: space-between; 
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .col-md-6 {
+    width: 50%;
+    padding: 0 15px;
+  }
+  
+  .button-with-icons {
+    text-align: right;
   }
   
   .car-image {
-    width: 50%; 
-    order: 1; 
+    position: relative;
+  width: 10%;
+  display: flex;
   }
   
-  .car-details {
-    width: 50%; 
-    order: 2; 
-    
+  .more-specs-arrow {
+    position: absolute;
+    bottom: -20px; /* Position it below the car-image */
+    right: 0;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  .car-image img {
-    width: 50%; 
-    max-width: 50%; 
+  .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ccc;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+  }
+  
+  .more-specs {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .more-specs li {
+    margin-bottom: 5px;
+  }
+  
+  .car-info {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .car-info h2 {
+    margin-top: 0;
   }
   
   .heart-icon {
     float: right;
   }
   
-  .buttons {
-    margin-top: 10px;
-  }
-  
-  .additional-details {
-    margin-top: 20px;
+  .btn-group {
+    margin-bottom: 10px;
   }
   
   .icons img {
@@ -39,8 +78,6 @@
   
   .footer {
     margin-top: 20px;
-    justify-content: center;
+    text-align: center;
   }
-  
-  
   
