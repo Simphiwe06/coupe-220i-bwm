@@ -11,11 +11,18 @@
         <img src="assets/car.png" alt="Car Image">
         <div class="more-specs-arrow">
           <div class="arrow-up"></div>
-          <ul class="more-specs">
-            <li><strong>Acceleration:</strong> 0-100 km/h in 7.5 seconds</li>
-            <li><strong>Engine Performance:</strong> 135kW</li>
-            <li><strong>Fuel Consumption:</strong> 6.31/100km</li>
-          </ul>
+          <div class="more-specs-columns">
+            <div class="column">
+              <strong>Acceleration:</strong> 0-100 km/h in 7.5 seconds
+            </div>
+            <div class="column">
+              <strong>Engine Performance:</strong> 135kW
+            </div>
+            <div class="column">
+              <strong>Fuel Consumption:</strong> 6.31/100km
+            </div>
+          </div>
+          
         </div>
       </div>
     </div>
@@ -29,14 +36,30 @@
           <button type="button" class="btn btn-secondary">Automatic</button>
         </div>
         <h3>Delivery within 1 week</h3>
-        <ul>
-          <li><strong>Per month</strong> R12 457</li>
-          <li><strong>Offer Price</strong> R857 190</li>
-        </ul>
-        <div class="icons">
-          <img src="assets/Quotelist" alt="Email quote">
-          <img src="payment-icon.png" alt="Payment options">
+        <div class="row">
+          <div class="col-sm-5">
+            <strong style="padding-right: 10px;">Per month</strong>
+          </div>
+          <div class="col-sm-7 text-right">
+            R12 457
+          </div>
         </div>
+        <div class="row">
+          <div class="col-sm-5">
+            <strong style="padding-right: 10px;">Offer Price</strong>
+          </div>
+          <div class="col-sm-7 text-right">
+            R857 190
+          </div>
+        </div>
+        
+        <div class="icons">
+          <img src="assets/Quotelist.svg" alt="Email quote">
+          <span>Email quote</span>
+          <img src="assets/Quotelist.svg" alt="Payment options">
+          <span>Payment options</span>
+        </div>
+        
         <div class="footer">
           <button type="button" class="btn btn-dark">+ Compare</button>
           <button type="button" class="btn btn-primary">View Vehicle</button>
